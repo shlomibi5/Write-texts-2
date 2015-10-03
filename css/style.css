@@ -1,0 +1,31 @@
+@font-face {
+	font-family: 'shlomi';
+	src: url("../font/IndieFlower.ttf") format('truetype');
+}
+body {
+	margin: 0;
+	direction: rtl;
+	text-align: center;
+	background: #ccc;
+}
+
+h1 {
+	font: 48px Tahoma;
+}
+
+#Title {
+	font: 48px "shlomi" bold;
+	text-shadow: 2px 2px 10px red;
+	background: #ffffff;
+	width: 800px;
+	margin: 0 auto;
+}
+#text {
+	font: 24px "shlomi";
+	margin: 0 auto;
+	width: 800px;
+	letter-spacing: 2px;
+	word-spacing: 10px;
+	line-height: 150%;
+	background: #ffffff;
+}
