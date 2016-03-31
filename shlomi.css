@@ -1,0 +1,28 @@
+#products {
+   background-color: black;
+   border: 1px solid #AAAAAA;
+   color: white;
+   width: 300px;
+   height: 300px;
+   margin-left: auto;
+   margin-right: auto;
+    -webkit-transition: all 1s ease;
+   -moz-transition: 1s ease;
+   transition: 1s ease;
+}
+
+#products * {
+   -webkit-transition: all 1s ease;
+   -moz-transition: 1s ease;
+   transition: 1s ease;
+}
+
+#products img {
+   width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+#products:hover {
+   zoom: 1.2;
+}
